@@ -1,3 +1,9 @@
+body {
+  font-family: Liberation Sans, Arial, sans-serif;
+  background-color: #fffaf7;
+  /* background-color: #fffd75; */
+  line-height: 1.5;
+}
 main {
     max-width: 38rem;
     padding: 2rem;
@@ -28,4 +34,14 @@ ul {
     /* Change the link color to #111 (black) on hover */
     li a:hover {
     background-color: #111;
+    }
+    
+    a{
+      text-decoration: none;
+      color:black;
+    }
+    
+    a:hover{
+      /* background-color: black; */
+      color:black;
     }
